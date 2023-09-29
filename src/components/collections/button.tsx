@@ -12,19 +12,6 @@ interface ButtonStyleProps {
     borderRadius: string;
 }
 
-// const ButtonUi = styled.button`
-//     background-color: ${(props: ButtonStyleProps) =>
-//         props.variantcolor ? props.variantcolor : "gray"};
-//     border: none;
-//     border-radius: ${(props: ButtonStyleProps) => props.borderRadius};
-//     color: white;
-//     padding: 10px 15px;borderRadius
-//     text-align: center;
-//     text-decoration: none;
-//     display: inline-block;
-//     font-size: 10px;
-// `;
-
 const ButtonUi = styled.button`
     border: 2px solid
         ${(props: ButtonStyleProps) =>
